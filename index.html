@@ -78,7 +78,7 @@
 
   <script>
 
-mapboxgl.accessToken = 'pk.eyJ1IjoiYWNyb3NzdGhlY2xvdWQiLCJhIjoiY2oxZTcza2pvMDAwYjMzb2R0N2k4a3AxdSJ9.XYKi9wD9vGRywkFRZZ8Y2w';
+mapboxgl.accessToken = process.env.MBOXKEY;
 var map = new mapboxgl.Map({
     container: 'map',
     style: 'mapbox://styles/mapbox/streets-v9'
